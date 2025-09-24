@@ -9,6 +9,7 @@ btnEtiqueta.onclick = resaltarTitulos;
 //getElementsByClassName()
 function resaltarParrafos() {
 const parrafos = document.getElementsByClassName("texto");
+console.log(parrafos) // Devuelve una coleccion HTML COLLECITION, los query all dan el NOdelist
 for (let i = 0; i < parrafos.length; i++) {
 parrafos[i].style.backgroundColor = "#ffffcc";
 parrafos[i].style.border = "1px solid #ccc";
