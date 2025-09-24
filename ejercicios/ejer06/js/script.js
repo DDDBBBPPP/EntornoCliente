@@ -5,11 +5,10 @@ const activar = document.getElementById("activar");
 const desactivar = document.getElementById("desactivar");
 const zona = document.getElementById("zona");
 const resultado = document.getElementById("resultado");
-// 2. Declaramos la función que queremos ejecutar al pasar el
-ratón
+// 2. Declaramos la función que queremos ejecutar al pasar el ratón
 function cambiarFondo() {
     zona.style.backgroundColor = "lightblue";
-    resultado.innerHTML = "<p>✅ Evento ejecutado: color de fondo aplicado.</p>";
+    resultado.textContent = "Has pasado el ratón por encima del párrafo.";
 }
 
 // 3. Activar el evento (lo añadimos al párrafo con
